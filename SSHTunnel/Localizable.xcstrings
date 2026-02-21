@@ -1,0 +1,1312 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "  %@: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "  %1$@: %2$@"
+          }
+        }
+      }
+    },
+    "%@%@%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@%2$@%3$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "About" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "정보"
+          }
+        }
+      }
+    },
+    "Add a new tunnel with + or paste a share string with ⌘V." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+로 새 터널을 추가하거나 ⌘V로 공유 문자열을 붙여넣으세요."
+          }
+        }
+      }
+    },
+    "Add a new tunnel with the + button in the toolbar." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도구 막대의 + 버튼으로 새 터널을 추가합니다."
+          }
+        }
+      }
+    },
+    "Add Directive" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "항목 추가"
+          }
+        }
+      }
+    },
+    "Add Host" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "호스트 추가"
+          }
+        }
+      }
+    },
+    "Add Rule" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "규칙 추가"
+          }
+        }
+      }
+    },
+    "Add Tunnel" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "터널 추가"
+          }
+        }
+      }
+    },
+    "Additional SSH Arguments" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추가 SSH 인자"
+          }
+        }
+      }
+    },
+    "Apply" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "적용"
+          }
+        }
+      }
+    },
+    "Authentication" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인증"
+          }
+        }
+      }
+    },
+    "Auto-connect on launch" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실행 시 자동 연결"
+          }
+        }
+      }
+    },
+    "Auto-connect on launch and disconnect on quit per tunnel." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "터널별 실행 시 자동 연결 및 종료 시 연결 해제 옵션."
+          }
+        }
+      }
+    },
+    "Browse and edit hosts in the SSH Config tab." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSH Config 탭에서 호스트를 탐색하고 편집합니다."
+          }
+        }
+      }
+    },
+    "Browse..." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "찾아보기..."
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "취소"
+          }
+        }
+      }
+    },
+    "Clear Log" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로그 지우기"
+          }
+        }
+      }
+    },
+    "Click Connect/Disconnect to toggle the connection." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결/연결 해제를 클릭하여 연결을 전환합니다."
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "닫기"
+          }
+        }
+      }
+    },
+    "Close dialog" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "대화상자 닫기"
+          }
+        }
+      }
+    },
+    "Connect" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결"
+          }
+        }
+      }
+    },
+    "Connect Anyway" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "그래도 연결"
+          }
+        }
+      }
+    },
+    "Connected" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결됨"
+          }
+        }
+      }
+    },
+    "Connecting..." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결 중..."
+          }
+        }
+      }
+    },
+    "Connection" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결"
+          }
+        }
+      }
+    },
+    "Connection failed (exit %d)" : {
+
+    },
+    "Connection failed (exit %lld)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결 실패 (종료 코드 %lld)"
+          }
+        }
+      }
+    },
+    "Connection Log" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결 로그"
+          }
+        }
+      }
+    },
+    "Copied!" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "복사됨!"
+          }
+        }
+      }
+    },
+    "Copy CLI Command" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CLI 명령 복사"
+          }
+        }
+      }
+    },
+    "Copy CLI Command to get the equivalent ssh command." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CLI 명령 복사로 동일한 ssh 명령을 얻습니다."
+          }
+        }
+      }
+    },
+    "Copy Log" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로그 복사"
+          }
+        }
+      }
+    },
+    "Copy Share String" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유 문자열 복사"
+          }
+        }
+      }
+    },
+    "Copy Share String to share configs as sshtunnel:// URLs." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유 문자열을 복사하여 sshtunnel:// URL로 설정을 공유합니다."
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "삭제"
+          }
+        }
+      }
+    },
+    "Disable" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비활성화"
+          }
+        }
+      }
+    },
+    "Disconnect" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결 해제"
+          }
+        }
+      }
+    },
+    "Disconnect All" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모두 연결 해제"
+          }
+        }
+      }
+    },
+    "Disconnect on quit" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "종료 시 연결 해제"
+          }
+        }
+      }
+    },
+    "Disconnected" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결 끊김"
+          }
+        }
+      }
+    },
+    "Dynamic (-D)" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다이나믹 (-D)"
+          }
+        }
+      }
+    },
+    "Dynamic (-D): SOCKS proxy through the SSH server." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다이나믹 (-D): SSH 서버를 통한 SOCKS 프록시."
+          }
+        }
+      }
+    },
+    "Edit as Text" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "텍스트로 편집"
+          }
+        }
+      }
+    },
+    "Edit tunnel settings in the detail pane." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "세부 패널에서 터널 설정을 편집합니다."
+          }
+        }
+      }
+    },
+    "Enable" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "활성화"
+          }
+        }
+      }
+    },
+    "Error: %@" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "오류: %@"
+          }
+        }
+      }
+    },
+    "File" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "파일"
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "일반"
+          }
+        }
+      }
+    },
+    "Help" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도움말"
+          }
+        }
+      }
+    },
+    "Host" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "호스트"
+          }
+        }
+      }
+    },
+    "Identity File" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인증 키 파일"
+          }
+        }
+      }
+    },
+    "Identity File: Select an SSH private key file." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인증 키 파일: SSH 개인 키 파일을 선택합니다."
+          }
+        }
+      }
+    },
+    "Import" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가져오기"
+          }
+        }
+      }
+    },
+    "Import configs from a share string or URL." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유 문자열 또는 URL에서 설정을 가져옵니다."
+          }
+        }
+      }
+    },
+    "Import from share string" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유 문자열에서 가져오기"
+          }
+        }
+      }
+    },
+    "Import from Share String" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유 문자열에서 가져오기"
+          }
+        }
+      }
+    },
+    "Import Tunnel Configuration" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "터널 설정 가져오기"
+          }
+        }
+      }
+    },
+    "Import Tunnel Configuration?" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "터널 설정을 가져올까요?"
+          }
+        }
+      }
+    },
+    "Invalid share string format." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "잘못된 공유 문자열 형식입니다."
+          }
+        }
+      }
+    },
+    "Key" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "키"
+          }
+        }
+      }
+    },
+    "Keyboard Shortcuts" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "키보드 단축키"
+          }
+        }
+      }
+    },
+    "Kill" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "종료"
+          }
+        }
+      }
+    },
+    "Kill All" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모두 종료"
+          }
+        }
+      }
+    },
+    "Launch at Login" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로그인 시 자동 시작"
+          }
+        }
+      }
+    },
+    "Load from SSH Config" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSH Config에서 불러오기"
+          }
+        }
+      }
+    },
+    "Load SSH Config hosts into a tunnel." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSH Config 호스트를 터널 설정으로 불러옵니다."
+          }
+        }
+      }
+    },
+    "Local (-L)" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로컬 (-L)"
+          }
+        }
+      }
+    },
+    "Local (-L): Forward a local port to a remote destination." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로컬 (-L): 로컬 포트를 원격 대상으로 포워딩합니다."
+          }
+        }
+      }
+    },
+    "Local Port" : {
+
+    },
+    "Menu Bar" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메뉴 막대"
+          }
+        }
+      }
+    },
+    "Method" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "방식"
+          }
+        }
+      }
+    },
+    "Monitor running SSH processes from the toolbar." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도구 막대에서 실행 중인 SSH 프로세스를 모니터링합니다."
+          }
+        }
+      }
+    },
+    "Move Down" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아래로 이동"
+          }
+        }
+      }
+    },
+    "Move to..." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이동..."
+          }
+        }
+      }
+    },
+    "Move Up" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "위로 이동"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이름"
+          }
+        }
+      }
+    },
+    "New Tunnel" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 터널"
+          }
+        }
+      }
+    },
+    "No Host Selected" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택된 호스트 없음"
+          }
+        }
+      }
+    },
+    "No hosts found in ~/.ssh/config" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "~/.ssh/config에서 호스트를 찾을 수 없습니다"
+          }
+        }
+      }
+    },
+    "No log available." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로그가 없습니다."
+          }
+        }
+      }
+    },
+    "No running SSH tunnel processes found." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실행 중인 SSH 터널 프로세스가 없습니다."
+          }
+        }
+      }
+    },
+    "No SSH Config Found" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSH Config 없음"
+          }
+        }
+      }
+    },
+    "No SSH Hosts" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSH 호스트 없음"
+          }
+        }
+      }
+    },
+    "No Tunnel Selected" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택된 터널 없음"
+          }
+        }
+      }
+    },
+    "No Tunnels" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "터널 없음"
+          }
+        }
+      }
+    },
+    "No tunnels configured" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정된 터널 없음"
+          }
+        }
+      }
+    },
+    "Open config files in an external editor." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "외부 편집기에서 설정 파일을 엽니다."
+          }
+        }
+      }
+    },
+    "Open in External Editor" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "외부 편집기로 열기"
+          }
+        }
+      }
+    },
+    "Open Manager from menu bar" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메뉴 막대에서 매니저 열기"
+          }
+        }
+      }
+    },
+    "Open Manager on Launch" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시작 시 매니저 열기"
+          }
+        }
+      }
+    },
+    "Open Manager..." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매니저 열기..."
+          }
+        }
+      }
+    },
+    "Options" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "옵션"
+          }
+        }
+      }
+    },
+    "Other Directives" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기타 항목"
+          }
+        }
+      }
+    },
+    "Password" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호"
+          }
+        }
+      }
+    },
+    "Password (optional)" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호 (선택)"
+          }
+        }
+      }
+    },
+    "Password: Stored securely in the macOS Keychain." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "비밀번호: macOS 키체인에 안전하게 저장됩니다."
+          }
+        }
+      }
+    },
+    "Paste share string to import" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유 문자열을 붙여넣어 가져오기"
+          }
+        }
+      }
+    },
+    "Paste the share string below:" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아래에 공유 문자열을 붙여넣으세요:"
+          }
+        }
+      }
+    },
+    "PID: %@  %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PID: %1$@  %2$@"
+          }
+        }
+      }
+    },
+    "Port" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "포트"
+          }
+        }
+      }
+    },
+    "Port %@ is already in use. The connection may fail." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "포트 %@이(가) 이미 사용 중입니다. 연결이 실패할 수 있습니다."
+          }
+        }
+      }
+    },
+    "Port Conflict" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "포트 충돌"
+          }
+        }
+      }
+    },
+    "Port Forwarding" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "포트 포워딩"
+          }
+        }
+      }
+    },
+    "Preview" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "미리보기"
+          }
+        }
+      }
+    },
+    "Proxy" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "프록시"
+          }
+        }
+      }
+    },
+    "Quick connect/disconnect tunnels from the menu bar." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메뉴 막대에서 터널을 빠르게 연결/해제합니다."
+          }
+        }
+      }
+    },
+    "Quit" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "종료"
+          }
+        }
+      }
+    },
+    "Quit application" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱 종료"
+          }
+        }
+      }
+    },
+    "Reload" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새로 고침"
+          }
+        }
+      }
+    },
+    "Remote (-R)" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "원격 (-R)"
+          }
+        }
+      }
+    },
+    "Remote (-R): Forward a remote port to a local destination." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "원격 (-R): 원격 포트를 로컬 대상으로 포워딩합니다."
+          }
+        }
+      }
+    },
+    "Remote Host" : {
+
+    },
+    "Remote Port" : {
+
+    },
+    "Right-click a tunnel to delete it." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "터널을 우클릭하여 삭제합니다."
+          }
+        }
+      }
+    },
+    "Running SSH Processes" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "실행 중인 SSH 프로세스"
+          }
+        }
+      }
+    },
+    "Search" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "검색"
+          }
+        }
+      }
+    },
+    "Select a host from the sidebar or add a new one." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사이드바에서 호스트를 선택하거나 새로 추가하세요."
+          }
+        }
+      }
+    },
+    "Select a tunnel from the sidebar or add a new one." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사이드바에서 터널을 선택하거나 새로 추가하세요."
+          }
+        }
+      }
+    },
+    "Select..." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택..."
+          }
+        }
+      }
+    },
+    "Settings..." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정..."
+          }
+        }
+      }
+    },
+    "Share" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유"
+          }
+        }
+      }
+    },
+    "Share & Import" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유 및 가져오기"
+          }
+        }
+      }
+    },
+    "SSH Config" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSH Config"
+          }
+        }
+      }
+    },
+    "SSH Tunnel Manager" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SSH 터널 매니저"
+          }
+        }
+      }
+    },
+    "Tunnel Management" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "터널 관리"
+          }
+        }
+      }
+    },
+    "Tunnel Types" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "터널 유형"
+          }
+        }
+      }
+    },
+    "Tunnels" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "터널"
+          }
+        }
+      }
+    },
+    "Type" : {
+
+    },
+    "Use text editing mode for raw config editing." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "텍스트 편집 모드로 설정을 직접 편집합니다."
+          }
+        }
+      }
+    },
+    "Username" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사용자 이름"
+          }
+        }
+      }
+    },
+    "Value" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "값"
+          }
+        }
+      }
+    },
+    "Version %@" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "버전 %@"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

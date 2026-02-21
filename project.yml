@@ -1,0 +1,35 @@
+name: SSHTunnel
+options:
+  bundleIdPrefix: kr.typostudio
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "16.0"
+  minimumXcodeGenVersion: "2.40"
+
+targets:
+  SSHTunnel:
+    type: application
+    platform: macOS
+    sources:
+      - SSHTunnel
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: kr.typostudio.sshtunnel
+        MARKETING_VERSION: "1.3.1"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.9"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        INFOPLIST_FILE: SSHTunnel/Info.plist
+        GENERATE_INFOPLIST_FILE: false
+        CODE_SIGN_ENTITLEMENTS: SSHTunnel/SSHTunnel.entitlements
+        ENABLE_APP_SANDBOX: false
+        ENABLE_HARDENED_RUNTIME: true
+        SWIFT_EMIT_LOC_STRINGS: true
+        CODE_SIGN_IDENTITY: "-"
+        DEVELOPMENT_TEAM: ""
+      configs:
+        Release:
+          SWIFT_OPTIMIZATION_LEVEL: "-O"
+          DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
+          COPY_PHASE_STRIP: true
+          STRIP_INSTALLED_PRODUCT: true
