@@ -1,6 +1,7 @@
 <div align="center">
     <img src="SSHTunnel/Assets.xcassets/AppIcon.appiconset/icon_256.png" width="200" height="200">
     <h1>SSH Tunnel Manager</h1>
+    <img src="screenshots/screenshot-1.png" width="800">
 </div>
 
 A lightweight macOS menu bar app for managing SSH tunnels. Create, connect, and organize port forwarding rules with a clean native interface.
