@@ -40,4 +40,8 @@ final class TunnelStatus {
     func state(for id: UUID) -> ConnectionState {
         states[id] ?? .disconnected
     }
+
+    var hasAnyConnection: Bool {
+        states.values.contains { $0 == .connected }
+    }
 }

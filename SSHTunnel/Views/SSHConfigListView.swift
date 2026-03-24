@@ -73,7 +73,7 @@ struct SSHConfigListView: View {
                         Label {
                             Text(String(localized: "No SSH Hosts"))
                         } icon: {
-                            Image(systemName: "apple.terminal.circle")
+                            Image(systemName: "light.beacon.max")
                                 .resizable()
                                 .frame(width: 36, height: 36)
                                 .foregroundStyle(.secondary)

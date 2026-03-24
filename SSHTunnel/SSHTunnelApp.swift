@@ -18,17 +18,15 @@ struct SSHTunnelApp: App {
     var body: some Scene {
         MenuBarExtra {
             MenuBarView(store: store, processManager: processManager, status: status, settings: settings)
-                .onAppear {
-                    autoConnectOnLaunch()
-                }
                 .onReceive(NotificationCenter.default.publisher(for: .openManagerWindow)) { _ in
                     openWindow(id: "main")
                     NSApp.activate(ignoringOtherApps: true)
                 }
         } label: {
-            Image("MenuBarIcon")
+            Image(systemName: status.hasAnyConnection ? "light.beacon.max.fill" : "light.beacon.max")
                 .onAppear {
                     // label onAppear fires once at app launch
+                    autoConnectOnLaunch()
                     if settings.openManagerOnLaunch {
                         DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
                             openWindow(id: "main")

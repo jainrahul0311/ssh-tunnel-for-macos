@@ -29,7 +29,7 @@ struct SSHProcessListView: View {
                     Label {
                         Text(String(localized: "No running SSH tunnel processes found."))
                     } icon: {
-                        Image(systemName: "apple.terminal.circle")
+                        Image(systemName: "light.beacon.max")
                             .resizable()
                             .frame(width: 36, height: 36)
                             .foregroundStyle(.secondary)
