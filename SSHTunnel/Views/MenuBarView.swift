@@ -41,10 +41,17 @@ struct MenuBarView: View {
 
         Divider()
 
+        Button(String(localized: "Reconnect All")) {
+            processManager.reconnectAll()
+        }
+        .disabled(!store.configs.contains { status.state(for: $0.id).isActive })
+
         Button(String(localized: "Disconnect All")) {
             processManager.disconnectAll()
         }
         .disabled(!store.configs.contains { status.state(for: $0.id).isActive })
+
+        Divider()
 
         Button(String(localized: "Check for Updates...")) {
             Task {

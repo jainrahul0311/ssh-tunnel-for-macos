@@ -1231,6 +1231,26 @@
         }
       }
     },
+    "Reconnect" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "재연결"
+          }
+        }
+      }
+    },
+    "Reconnect All" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모두 재연결"
+          }
+        }
+      }
+    },
     "Reload" : {
       "localizations" : {
         "ko" : {

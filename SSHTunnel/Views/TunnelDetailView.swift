@@ -142,6 +142,17 @@ struct TunnelDetailView: View {
                 .help(String(localized: "Connection Log"))
             }
 
+            if state.isActive {
+                ToolbarItem(placement: .primaryAction) {
+                    Button {
+                        processManager.reconnect(draft)
+                    } label: {
+                        Image(systemName: "arrow.clockwise")
+                    }
+                    .help(String(localized: "Reconnect"))
+                }
+            }
+
             ToolbarItem(placement: .primaryAction) {
                 Button {
                     attemptConnect()
