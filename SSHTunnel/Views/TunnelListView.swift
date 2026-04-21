@@ -91,6 +91,11 @@ struct TunnelListView: View {
                                : String(localized: "Connect")) {
                             processManager.toggle(config)
                         }
+                        if status.state(for: config.id).isActive {
+                            Button(String(localized: "Reconnect")) {
+                                processManager.reconnect(config)
+                            }
+                        }
                         Divider()
                         Button(String(localized: "Copy Share String")) {
                             let encoded = ShareService.encode(config)

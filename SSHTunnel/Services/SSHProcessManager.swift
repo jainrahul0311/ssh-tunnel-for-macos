@@ -16,6 +16,7 @@ final class SSHProcessManager {
     private var reconnectConfigs: [UUID: SSHTunnelConfig] = [:]
     private var reconnectTimers: [UUID: DispatchWorkItem] = [:]
     private var retryCounts: [UUID: Int] = [:]
+    private var pendingImmediateReconnect: [UUID: SSHTunnelConfig] = [:]
     private let networkMonitor = NWPathMonitor()
     private var isNetworkAvailable = true
 
@@ -127,6 +128,9 @@ final class SSHProcessManager {
                     }
                 }
                 self.manualDisconnects.remove(id)
+                if let config = self.pendingImmediateReconnect.removeValue(forKey: id) {
+                    self.connect(config)
+                }
             }
         }
 
@@ -175,6 +179,22 @@ final class SSHProcessManager {
     func disconnectAll() {
         for id in processes.keys {
             disconnect(id)
+        }
+    }
+
+    func reconnect(_ config: SSHTunnelConfig) {
+        let id = config.id
+        guard status.state(for: id).isActive else {
+            connect(config)
+            return
+        }
+        pendingImmediateReconnect[id] = config
+        disconnect(id)
+    }
+
+    func reconnectAll() {
+        for (id, config) in reconnectConfigs where status.state(for: id).isActive {
+            reconnect(config)
         }
     }
 
